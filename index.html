@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradebook Frontend</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Gradebook Frontend</h1>
+    </header>
+    <main>
+        <section id="connect-section">
+            <button id="connect">Connect MetaMask</button>
+        </section>
+        <section id="actions-section">
+            <button id="addStudent" disabled>Add Student</button>
+            <button id="addGrade" disabled>Add Grade</button>
+            <button id="getGrades" disabled>Get Student Grades</button>
+            <button id="updateGrade" disabled>Update Grade</button>
+            <button id="averageGrade" disabled>Average Grade</button>
+        </section>
+        <section id="output-section">
+            <div id="output"></div>
+        </section>
+    </main>
+    <script src="https://cdn.ethers.io/lib/ethers-5.6.umd.min.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
